@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/battalgazi_gray_50"
+    android:gravity="center">
+
+    <!-- Header Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/battalgazi_card_background"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/battalgazi_primary"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_subtitle"
+            android:textSize="18sp"
+            android:textColor="@color/battalgazi_gray_600"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_description"
+            android:textSize="14sp"
+            android:textColor="@color/battalgazi_gray_500"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Map Info Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/battalgazi_card_background"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺️ Harita Yükleniyor..."
+            android:textSize="16sp"
+            android:textColor="@color/battalgazi_primary"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Şimdilik parkları butonlardan seçebilirsiniz."
+            android:textSize="14sp"
+            android:textColor="@color/battalgazi_gray_600"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Park Buttons with Cards -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park1_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Kültür Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park2_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Beşkonaklar Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park3_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Yeşilyurt Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park4_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Battalgazi Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park5_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Darende Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park6_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Hacılar Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park7_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Sürgü Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park8_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Arapgir Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park9_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Hekimhan Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park10_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Pütürge Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park11_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Akçadağ Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/battalgazi_card_background"
+                android:layout_marginBottom="8dp"
+                android:elevation="2dp">
+
+                <Button
+                    android:id="@+id/park12_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏛️ Kale Parkı"
+                    android:textSize="16sp"
+                    android:background="@drawable/battalgazi_button_background"
+                    android:textColor="@color/battalgazi_white"
+                    android:padding="16dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout> 

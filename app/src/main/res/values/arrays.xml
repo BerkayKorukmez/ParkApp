@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_types">
+        <item>Bank Kırık</item>
+        <item>Çöp Kutusu Eksik</item>
+        <item>Çim Alanı Bozuk</item>
+        <item>Yol Bozuk</item>
+        <item>Aydınlatma Sorunu</item>
+        <item>Çocuk Oyun Alanı Sorunu</item>
+        <item>Diğer</item>
+    </string-array>
+    
+    <string-array name="departments">
+        <item>Tümü</item>
+        <item>Çevre ve Şehircilik</item>
+        <item>Belediye</item>
+        <item>Park ve Bahçeler</item>
+    </string-array>
+</resources> 

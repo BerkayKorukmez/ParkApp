@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Battalgazi Park Şikayet</string>
+    <string name="app_description">Battalgazi Belediyesi park şikayet bildirme uygulaması</string>
+    
+    <!-- Battalgazi Belediyesi Tema Metinleri -->
+    <string name="battalgazi_title">Battalgazi Belediyesi</string>
+    <string name="battalgazi_subtitle">"Asrın Mirası Geleceğin İnşası"</string>
+    <string name="battalgazi_slogan">Hizmette Öncü, Güvenilir Belediye</string>
+    
+    <!-- Ana Sayfa -->
+    <string name="welcome_title">Battalgazi Parkları</string>
+    <string name="welcome_subtitle">Şikayet ve İstek Bildirimi</string>
+    <string name="welcome_description">Battalgazi Belediyesi parklarında yaşadığınız sorunları bize bildirin</string>
+    
+    <!-- Şikayet Yönetimi -->
+    <string name="complaint_management">Şikayet Yönetimi</string>
+    <string name="complaint_resolved">✅ Çözüldü</string>
+    <string name="complaint_pending">⏳ Beklemede</string>
+    <string name="complaint_resolve_button">✅ Şikayeti Çözüldü İşaretle</string>
+    <string name="complaint_select_warning">⚠️ Lütfen bir şikayet seçin</string>
+    <string name="complaint_already_resolved">Bu şikayet zaten çözülmüş!</string>
+    <string name="complaint_resolve_confirm_title">Şikayet Çözüldü</string>
+    <string name="complaint_resolve_confirm_message">Bu şikayeti çözüldü olarak işaretlemek istediğinizden emin misiniz?</string>
+    <string name="complaint_resolve_success">✅ Şikayet başarıyla çözüldü olarak işaretlendi</string>
+    <string name="complaint_resolve_error">❌ Güncelleme sırasında hata oluştu</string>
+    
+    <!-- Yetkili Paneli -->
+    <string name="admin_panel_title">👨‍💼 Yetkili Paneli</string>
+    <string name="admin_filter_button">🔍 Filtrele</string>
+    <string name="admin_complaints_found">%1$s için %2$d şikayet bulundu</string>
+    
+    <!-- Park Detayları -->
+    <string name="park_info_title">Park Bilgileri</string>
+    <string name="park_complaint_department_info">Bu parktan gelen şikayetler %1$s biriminde görüntülenir</string>
+    <string name="park_complaint_general_info">Şikayet türüne göre ilgili birim yönlendirilir</string>
+    <string name="report_issue_button">📝 Şikayet Bildir</string>
+    
+    <!-- Giriş Ekranları -->
+    <string name="login_title">Battalgazi Belediyesi</string>
+    <string name="login_subtitle">Park Şikayet Sistemi</string>
+    <string name="admin_login_title">Yetkili Girişi</string>
+    <string name="user_login_title">Vatandaş Girişi</string>
+    
+    <!-- Navigasyon -->
+    <string name="nav_map">🗺️ Harita</string>
+    <string name="nav_park_info">🏛️ Park Bilgileri</string>
+    <string name="nav_complaints">📋 Şikayetlerim</string>
+    <string name="nav_complaint_management">📊 Şikayet Yönetimi</string>
+    <string name="nav_profile">👤 Profil</string>
+    
+    <!-- İstatistikler -->
+    <string name="stats_total">📊 Toplam: %1$d</string>
+    <string name="stats_pending">⏳ Bekleyen: %1$d</string>
+    <string name="stats_resolved">✅ Çözülen: %1$d</string>
+    <string name="stats_summary">📊 Toplam: %1$d | ⏳ Bekleyen: %2$d | ✅ Çözülen: %3$d</string>
+</resources>

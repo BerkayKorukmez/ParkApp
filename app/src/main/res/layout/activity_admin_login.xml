@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/battalgazi_gray_50"
+    android:gravity="center">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/battalgazi_header_background"
+            android:padding="24dp"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/admin_logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_admin"
+                android:background="@drawable/battalgazi_card_background"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battalgazi_title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/battalgazi_white"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_login_title"
+                android:textSize="16sp"
+                android:textColor="@color/battalgazi_light"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battalgazi_subtitle"
+                android:textSize="12sp"
+                android:textColor="@color/battalgazi_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Login Form -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/battalgazi_card_background"
+            android:elevation="4dp"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👨‍💼 Yetkili Bilgileri"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/battalgazi_primary"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/admin_email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="📧 E-posta Adresi"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/battalgazi_input_background"
+                android:textColor="@color/battalgazi_gray_800"
+                android:textColorHint="@color/battalgazi_gray_400" />
+
+            <EditText
+                android:id="@+id/admin_password_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="🔒 Şifre"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/battalgazi_input_background"
+                android:textColor="@color/battalgazi_gray_800"
+                android:textColorHint="@color/battalgazi_gray_400" />
+
+            <Button
+                android:id="@+id/admin_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚪 GİRİŞ YAP"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/battalgazi_button_background"
+                android:textColor="@color/battalgazi_white" />
+
+            <Button
+                android:id="@+id/admin_back_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⬅️ GERİ DÖN"
+                android:textSize="14sp"
+                android:padding="12dp"
+                android:background="@drawable/battalgazi_input_background"
+                android:textColor="@color/battalgazi_secondary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2025 Battalgazi Belediyesi"
+            android:textSize="12sp"
+            android:textColor="@color/battalgazi_gray_500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Park Şikayet Yönetim Sistemi"
+            android:textSize="10sp"
+            android:textColor="@color/battalgazi_gray_400"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout> 

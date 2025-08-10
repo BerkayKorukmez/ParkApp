@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Park Image -->
+                    <ImageView
+                android:id="@+id/parkImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_park_marker"
+                android:background="@drawable/malatya_background_1"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="16dp" />
+
+        <!-- Park Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Park Name and Status -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/parkName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Park Adı"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+
+                <View
+                    android:id="@+id/statusIndicator"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:background="@drawable/status_open"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Address -->
+            <TextView
+                android:id="@+id/parkAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/parkDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açıklama"
+                android:textSize="12sp"
+                android:textColor="@color/text_tertiary"
+                android:layout_marginTop="4dp"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <!-- Rating and Reviews -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <RatingBar
+                    android:id="@+id/parkRating"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:rating="4.5"
+                    android:progressTint="@color/rating_color"
+                    android:ratingBarStyle="?android:attr/ratingBarStyleSmall" />
+
+                <TextView
+                    android:id="@+id/reviewCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(128 değerlendirme)"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_tertiary"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Opening Hours -->
+            <TextView
+                android:id="@+id/openingHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 Saat Açık"
+                android:textSize="12sp"
+                android:textColor="@color/accent_color"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/hours_background"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/battalgazi_gray_50">
+
+    <!-- Header Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/battalgazi_card_background"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_panel_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/battalgazi_primary"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battalgazi_slogan"
+            android:textSize="14sp"
+            android:textColor="@color/battalgazi_gray_600"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Filter Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/battalgazi_card_background"
+        android:elevation="2dp"
+        android:padding="12dp">
+
+        <Spinner
+            android:id="@+id/department_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/battalgazi_input_background"
+            android:entries="@array/departments"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/filter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_filter_button"
+            android:background="@drawable/battalgazi_button_background"
+            android:textColor="@color/battalgazi_white"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- Resolve Button -->
+    <Button
+        android:id="@+id/resolve_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/complaint_resolve_button"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/battalgazi_button_background"
+        android:textColor="@color/battalgazi_white"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:elevation="2dp" />
+
+    <!-- Complaints List -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/battalgazi_card_background"
+        android:elevation="2dp"
+        android:padding="8dp">
+
+        <ListView
+            android:id="@+id/admin_complaints_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/battalgazi_gray_200"
+            android:dividerHeight="1dp"
+            android:padding="8dp"
+            android:choiceMode="singleChoice"
+            android:background="@color/battalgazi_white" />
+
+    </LinearLayout>
+
+</LinearLayout> 

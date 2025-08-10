@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742994921369",
+    "project_id": "parkapp-b52b3",
+    "storage_bucket": "parkapp-b52b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742994921369:android:d736afe7dde79b30ef3508",
+        "android_client_info": {
+          "package_name": "com.example.parkapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEcFjksIXVOiCRFG3-AE7KPffQF27KwqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

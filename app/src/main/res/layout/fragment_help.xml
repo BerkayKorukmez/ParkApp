@@ -188,7 +188,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bu uygulama Berkay Körükmez tarafından geliştirilmiştir.\n\nSorularınız için:\n📧 berkay@example.com\n📞 0500 000 00 00\n🌐 www.berkaykorukmez.com"
+                    android:text="Bu uygulama Berkay Körükmez tarafından geliştirilmiştir.\n\nSorularınız için:\n📧 berkaykorukmez@gmail.com\n📞 05388236544"
                     android:textSize="14sp"
                     android:textColor="@color/text_secondary"
                     android:lineSpacingExtra="4dp" />
